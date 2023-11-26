@@ -1,0 +1,25 @@
+
+<!-- <camera device-position="back" flash="off" binderror="error" style="width: 100%; height: 300px;"></camera> -->
+<!-- 请上传图像上半部分界面设计 -->
+<view>
+  <view class="number1">
+    <view hidden='{{ defaultImage }}' class="font1">请打开相机</view>
+    <!-- 设置camera打开摄像头功能 当wx:if里面为false则会关闭摄像头功能-->
+    <camera hidden='{{ cameraHidden }}' wx:if="{{!cameraHidden}}" device-position="back" flash="off" binderror="error" style="width: 100%; height: 100%"></camera>
+    <!-- 接收拍摄的图像-->
+    <image hidden="{{ takeHidden }}" src="{{ take_image }}" style="width: 100%; height: 100%"></image>
+  </view>
+</view>
+
+<!-- 设置三个按钮样式 -->
+<view class="click_btn">
+  <view class="btn1"><button size="mini" type="primary" class="upimg" bindtap="open">打开相机</button></view>
+  <view class="btn2"><button size="mini" type="primary" class="clear" bindtap="takePhoto">拍照</button></view>
+  <view class="btn3"><button size="mini" type="primary" class="clear" bindtap="click">图像识别</button></view>
+</view>
+
+<!-- 设置返回结果 -->
+<view class="src">
+<view class="food" >{{food}}</view>
+<view class="time" >{{time}}</view>
+</view>

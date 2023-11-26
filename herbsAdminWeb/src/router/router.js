@@ -1,0 +1,24 @@
+export const adminuserRouterMap = [
+    {
+        path:'/home',
+        redirect:'/tongji',
+        component:()=>import('@/views/Home'),
+        children:[
+            {
+                path:'/adminUser',
+                name:'adminUser',
+                component:()=>import('@/views/adminUser/adminUser'),
+            },
+            { 
+                path:'/wikipedia',
+                name:'wikipedia',
+                component:()=>import('@/views/wikipedia/wikipedia'),
+            },
+            { 
+                path:'/tongji',
+                name:'tongji',
+                component:()=>import('@/views/tongji/Tongji'),
+            }
+        ]
+    }
+]

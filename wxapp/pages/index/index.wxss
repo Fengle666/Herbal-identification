@@ -1,0 +1,33 @@
+
+
+.box{ width: 35vw; height:15vw; background: rgb(243 5 5); border-radius: 30px; position: absolute; display: flex;
+  left: 32vw; top: 100vw}
+
+  .box2 {
+    width: 35vw;
+    height: 15vw;
+    background: rgb(243 5 5);
+    position: absolute;
+    display: flex;
+    left: 32vw;
+    border-radius: 30px;
+    top: 70vw;
+}
+.font-setting {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 30px;
+}
+
+
+.boxHover{background: green;}
+
+.root {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -99999;
+}
+

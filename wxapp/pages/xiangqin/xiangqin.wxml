@@ -1,0 +1,22 @@
+<view style="line-height:100rpx;text-align:center;font-size: 30px;">
+  名称：{{list.name}}
+</view>
+<view style="text-align: center;">
+  <image src="{{list.image}}" style="width:300px;height:300px;"></image>
+</view>
+
+<view style="font-size:20px;line-height:20px;text-indent:2em;margin-bottom: 20px;">
+  介绍：{{list.describe}}
+</view>
+
+<view style="font-size:20px;line-height:20px;text-indent:2em;margin-bottom: 20px;">
+  功效：{{list.efficacy}}
+</view>
+
+<view style="font-size:20px;line-height:20px;text-indent:2em;margin-bottom: 20px;">
+  生长环境：{{ list.cultivation}}
+</view>
+
+<view style="font-size:20px;line-height:20px;text-indent:2em;margin-bottom: 20px;">
+  栽培技术：{{list.describe}}
+</view>

@@ -1,0 +1,73 @@
+/* .intro {
+  margin: 30px;
+  text-align: center;
+} */
+/**index.wxss**/
+/* 上半部分界面 */
+.number1 {
+  margin-top: 0rpx;
+  padding-top: 0.1rpx;
+  width: 100vw;
+  height: 100vw;
+  background: rgb(21, 196, 59);
+}
+/* 上半部分界面里面的字体 */
+.font1 {
+  margin-top:45vw;
+  display: flex;
+  width: 100%;
+  position: absolute;
+  flex-direction: column;
+  align-items: center;
+  font-size: large;
+}
+
+/* 三个按钮所在的这一行 */
+.click_btn{
+  height:66px;
+  width: 100%;
+}
+/* 第一个按钮 */
+.btn1{
+  margin: 20rpx 0 20rpx 80rpx;
+  float: left;
+  width: 25%;
+}
+/* 第二个按钮 */
+.btn2{
+  margin: 20rpx 20rpx 20rpx 8%;
+  float: left;
+  align-items: center;
+  width: 15%;
+}
+/* 第三个按钮 */
+.btn3 {
+  margin: 20rpx 7% 20rpx 0;
+  float: right;
+  width: 25%;
+}
+.result {
+  float: left;
+}
+.src {
+  margin-top: 100rpx;
+  padding-top: 40rpx;
+  position: absolute;
+  width: 450rpx;
+  height: 200px;
+  background: rgb(72, 233, 72);
+  bottom: 0%;
+  left: 20%;
+}
+
+.food {
+  text-align: center;
+  font-size: 50rpx;
+  padding-top: 30rpx;
+}
+
+.time {
+  text-align: center;
+  font-size: 25rpx;
+  padding-top: 20rpx;
+}
